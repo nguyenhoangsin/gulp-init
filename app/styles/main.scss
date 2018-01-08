@@ -1,0 +1,20 @@
+/* Import bases */
+
+@import 'bases/font.scss';
+@import 'bases/variable.scss';
+@import 'bases/function.scss';
+@import 'bases/mixin.scss';
+@import 'bases/reset.scss';
+@import 'bases/common.scss';
+
+/* Import layouts */
+
+@import 'layouts/header.scss';
+@import 'layouts/footer.scss';
+
+/* Import partials */
+
+
+/* Import pages */
+
+@import 'pages/index.scss';
