@@ -89,7 +89,7 @@ gulp.task('build:babel', () => {
 
 /* dev:html-file-include */
 gulp.task('dev:html-file-include', () => {
-    return gulp.src('app/views/pages/*.html')
+    return gulp.src('app/views/templates/*.html')
         // .pipe($.changed('dist'))
         .pipe($.fileInclude({
             prefix: '@',

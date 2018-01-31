@@ -7,14 +7,15 @@
 @import 'bases/reset.scss';
 @import 'bases/common.scss';
 
-/* Import layouts */
 
-@import 'layouts/header.scss';
-@import 'layouts/footer.scss';
+/* Import components */
 
 /* Import partials */
 
+@import 'partials/header.scss';
+@import 'partials/footer.scss';
 
-/* Import pages */
 
-@import 'pages/index.scss';
+/* Import templates */
+
+@import 'templates/index.scss';
