@@ -1,21 +1,17 @@
 /* Import bases */
-
 @import 'bases/font.scss';
 @import 'bases/variable.scss';
 @import 'bases/function.scss';
 @import 'bases/mixin.scss';
 @import 'bases/reset.scss';
+@import 'bases/override.scss';
 @import 'bases/common.scss';
-
 
 /* Import components */
 
 /* Import partials */
-
 @import 'partials/header.scss';
 @import 'partials/footer.scss';
 
-
 /* Import templates */
-
 @import 'templates/index.scss';
