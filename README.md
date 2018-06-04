@@ -1,6 +1,8 @@
 ### Note
 You’ll need to have NodeJS >= 8 and npm >= 5 on your machine.
 <br>
+We using Bower for managing vendors.
+<br>
 We recommend using Yarn or npm for managing front-end dependencies.
 <br>
 To install Yarn with npm, run:
@@ -23,15 +25,23 @@ yarn
 ```
 
 ### Run project
-Development environment, run:
+Development environment with npm, run:
 ```bash
-npm run dev
+npm run start
+```
+Development environment with Yarn, run:
+```bash
+yarn start
 ```
 
 ### Build project
-Build production, run:
+Build production with npm, run:
 ```bash
 npm run build
+```
+Build production with Yarn, run:
+```bash
+yarn build
 ```
 
 ### Author

@@ -1,4 +1,9 @@
 /node_modules
-/dist
+/bower_components
+/build
 yarn.lock
+yarn-debug.log
+yarn-error.log
 package-lock.json
+npm-debug.log
+npm-error.log
